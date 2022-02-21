@@ -51,17 +51,17 @@ button {
   font-size: 1.1rem;
 }
 button:hover {
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   transform: scale(1.08);
   background-color: #fa5252;
 }
 
 .price input {
-  width: 20%;
+  width: 38%;
 }
 @media (max-width: 768px) {
   .price input {
-    width: 18%;
+    width: 30%;
   }
 }
 .price small {
@@ -70,7 +70,7 @@ button:hover {
   border-radius: 5px;
 }
 .price small::before {
-  content: "Total :";
+  content: " المتبقي :";
 }
 .search-box {
   display: flex;
