@@ -17,13 +17,13 @@
         <div class="body">
           <input type="text" id="title" placeholder="اسم المريض" />
           <div class="price">
-            <input onkeyup="getTotal()" type="text" id="price" placeholder="price" />
-            <input onkeyup="getTotal()" type="text" id="taxes" placeholder="taxes" />
-            <input onkeyup="getTotal()" type="text" id="ads" placeholder="ads" />
-            <input onkeyup="getTotal()" type="text" id="discount" placeholder="الخصم" />
+            <input onkeyup="getTotal()" type="text" id="price" placeholder="المبلغ الكلى" />
+            
+           
+            <input onkeyup="getTotal()" type="text" id="discount" placeholder="المبلغ المدفوع" />
             <small id="total"></small>
           </div>
-          <input type="text" id="count" placeholder="count" />
+          <input type="text" id="count" placeholder="العدد" />
           <input type="text" id="category" placeholder="رقم الموبيل" />
           <button id="submit">اضافة</button>
 
@@ -49,13 +49,10 @@
             <tr>
               <th>الفهرس</th>
               <th>اسم المريض</th>
-              <th>price</th>
-              <th>taxes</th>
-              <th>ads</th>
-              <th>discount</th>
-              <th>total</th>
-              <th>category</th>
-              <th>بحث</th>
+              <th>المبلغ الكلي</th>
+              <th>المبلغ المدفوع</th>
+              <th>المتبقى</th>
+              <th>رقم الموبيل</th>
               <th>تعديل</th>
               <th>حذف</th>
             </tr>
